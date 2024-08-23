@@ -50,15 +50,15 @@ docker ps
 
 ![image](https://github.com/user-attachments/assets/b678528a-db16-48c1-a0b4-f2965903be3b)
 
+### To access the wordpress application
+
+![image](https://github.com/user-attachments/assets/730e5b57-82b2-4cee-8e33-b51a77c3f993)
+
 ### To tear down the container
 
 ```
 docker-compose down
 ```
 
-### To access the wordpress application
-
-![image](https://github.com/user-attachments/assets/730e5b57-82b2-4cee-8e33-b51a77c3f993)
-
-
+![image](https://github.com/user-attachments/assets/bc9e0d7a-c157-48c9-85e6-e0f76f0589c2)
 
