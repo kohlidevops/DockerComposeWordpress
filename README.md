@@ -1,6 +1,6 @@
 # How to Deploy a Wordpress and MySQL container application on Linux using Docker Compose
 
-Pre-req
+## Pre-req
 
 1. Ubuntu machine with ARM based
 2. Install docker and docker-compose
@@ -31,7 +31,34 @@ docker-compose --version
 
 ## 3. Create a Docker-Compose yaml
 
+```
+https://github.com/kohlidevops/DockerComposeWordpress/blob/main/docker-compose.yaml
+```
 
+### To build and run the Docker compose
+
+```
+docker-compose up (will run in foreground)
+docker-compose up -d (will run in background)
+```
+
+### To check the running container
+
+```
+docker ps
+```
+
+![image](https://github.com/user-attachments/assets/b678528a-db16-48c1-a0b4-f2965903be3b)
+
+### To tear down the container
+
+```
+docker-compose down
+```
+
+### To access the wordpress application
+
+![image](https://github.com/user-attachments/assets/730e5b57-82b2-4cee-8e33-b51a77c3f993)
 
 
 
